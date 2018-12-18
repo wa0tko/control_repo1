@@ -1,4 +1,4 @@
-class absent_file {
+node default {
 
   file { '/tmp/hello-file':
     ensure  => 'present',
